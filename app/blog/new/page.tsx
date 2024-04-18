@@ -1,7 +1,3 @@
 export default function NewPost() {
-    return(
-        <div>
-            Create new Post
-        </div>
-    )
+  return <h1>Create new post</h1>;
 }

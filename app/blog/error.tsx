@@ -1,7 +1,5 @@
-'use client';
+"use client";
 
-export default function ErrorWarning({error}: {error: Error}) {
-    return (
-        <h1>Error {error.message}</h1>
-    )
+export default function ErrorWrapper({ error }: { error: Error }) {
+  return <h1>Oops!!! {error.message}</h1>;
 }
