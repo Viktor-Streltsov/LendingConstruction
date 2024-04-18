@@ -1,6 +1,6 @@
-import Navigation from "@/components/Navigation";
+import Navigation from "./navigation/Navigation";
 import Link from "next/link";
-import Logo from "@/components/icons/Logo";
+import Logo from "../icons/Logo";
 
 const navItems = [
   { label: "Home", href: "/" },
