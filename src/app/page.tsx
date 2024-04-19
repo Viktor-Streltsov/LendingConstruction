@@ -1,10 +1,10 @@
-import React from 'react';
-import styles from './scssstuses.module.scss'
-;
-const Home = () => {
-  return (
-      <h1 className={styles.text}>Welcome to Next</h1>
-  );
-};
+import React from 'react'
 
-export default Home;
+
+const Home = () => {
+	return (
+		<h1>Welcome to Nexts</h1>
+	)
+}
+
+export default Home
