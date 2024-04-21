@@ -5,18 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2958d0eb-6180-4c29-a3e9-6adb45642fee" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/app/styles/Home/Home.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/theFuture/TheFuture.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/theFuture/TheFuture.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/theFuture/icons/CircleArrowIcons.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/theFuture/icons/worked.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/theYears/TheYears.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/theYears/TheYears.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/theYears/icons/workedMen.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/theFeatured/TheFeatured.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/theFeatured/TheFeatured.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/globals.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/styles/Layout.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/styles/Layout.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/styles/Home/Home.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/styles/Home/Home.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/theHeader/TheHeader.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/theHeader/TheHeader.module.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -127,7 +123,7 @@
       <workItem from="1713523162771" duration="1067000" />
       <workItem from="1713524256104" duration="7401000" />
       <workItem from="1713585697744" duration="4991000" />
-      <workItem from="1713673219529" duration="2677000" />
+      <workItem from="1713673219529" duration="4299000" />
     </task>
     <servers />
   </component>
