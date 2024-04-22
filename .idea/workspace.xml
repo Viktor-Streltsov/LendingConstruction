@@ -5,29 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2958d0eb-6180-4c29-a3e9-6adb45642fee" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/TheComments/TheComments.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/TheComments/TheComments.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/TheComments/TheSliderComments.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/TheComments/icons/1man.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/icons/CircleIcon.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/theFeatured/TheSlider.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/theFeatured/dateTower/DateTower.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/theFeatured/dateTower/icons/ArrowCircleRight.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/theFeatured/dateTower/icons/towerOne.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/theFeatured/dateTower/icons/towerTree.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/theFeatured/dateTower/icons/towerTwo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/theRequest/TheRequest.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/theRequest/TheRequest.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/globals.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/page.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/styles/Home/Home.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/styles/Home/Home.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/styles/Layout.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/styles/Layout.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/theFeatured/TheFeatured.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/theFeatured/TheFeatured.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/theFeatured/TheFeatured.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/theFeatured/TheFeatured.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/theYears/TheYears.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/theYears/TheYears.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -165,7 +145,7 @@
       <workItem from="1713585697744" duration="4991000" />
       <workItem from="1713673219529" duration="24322000" />
       <workItem from="1713756553872" duration="9105000" />
-      <workItem from="1713780584295" duration="601000" />
+      <workItem from="1713780584295" duration="1226000" />
     </task>
     <servers />
   </component>
