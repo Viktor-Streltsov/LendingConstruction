@@ -30,7 +30,7 @@ const TheYears = () => {
 						With 25 years of experience, our contractors have a deep understanding of industry standards and
 						regulations.
 						We ensure that all our projects comply with the latest safety and building codes, and that the final product
-						meets or exceeds our client's expectations.
+						meets or exceeds our clients expectations.
 					</p>
 				</div>
 				<div className={styles.blockImage}>
