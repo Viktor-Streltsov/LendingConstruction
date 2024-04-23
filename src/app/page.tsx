@@ -3,8 +3,9 @@ import TheFuture from '@/components/theFuture/TheFuture'
 import TheYears from '@/components/theYears/TheYears'
 import TheFeatured from '@/components/theFeatured/TheFeatured'
 import TheRequest from '@/components/theRequest/TheRequest'
-import styles from './styles/Home/Home.module.scss'
 import CircleIcon from '@/components/icons/CircleIcon'
+import TheComments from '@/components/TheComments/TheComments'
+import styles from './styles/Home/Home.module.scss'
 
 const Home = () => {
 	return (
@@ -24,10 +25,12 @@ const Home = () => {
 				<TheFeatured />
 			</section>
 			<section className={styles.wrapperComments}>
-				{/*<TheComments />*/}
+				<TheComments />
 			</section>
 			<section className={styles.wrapperRequest}>
-				<TheRequest />
+				<div className={styles.componentRequest}>
+					<TheRequest />
+				</div>
 			</section>
 		</>
 	)

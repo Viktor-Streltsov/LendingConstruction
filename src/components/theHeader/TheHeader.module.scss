@@ -3,7 +3,7 @@
   margin: 0 auto;
   display: flex;
   flex-direction: row;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
   background: #191A19;
@@ -30,7 +30,7 @@
 .navText {
   display: flex;
   flex-direction: row;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
   align-items: center;
   column-gap: 44px;
   color: #fff;

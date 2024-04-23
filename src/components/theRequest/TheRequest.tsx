@@ -16,7 +16,12 @@ const TheRequest = () => {
 						<input className={styles.inputForm} type='text' placeholder='Name' />
 						<input className={styles.inputForm} type='email' placeholder='Email' />
 						<input className={styles.inputForm} type='number' placeholder='Phone' />
-						<input className={styles.inputForm} type='text' placeholder='Name' />
+						<select className={styles.inputForm} id='service' name='service'>
+							<option className={styles.valueService} value='#'>Select Your Service</option>
+							<option className={styles.valueService} value='service1'>Service1</option>
+							<option className={styles.valueService} value='service2'>Service2</option>
+							<option className={styles.valueService} value='service3'>Service3</option>
+						</select>
 						<textarea className={styles.textareaForm} placeholder='Additional Details!' />
 						<button className={styles.submit} type='button'>Submit Request</button>
 					</form>
@@ -26,17 +31,18 @@ const TheRequest = () => {
 					<ul className={styles.listContact}>
 						<li>
 							<h4 className={styles.nameList}>Our Location</h4>
-							<span className={styles.infoText}>18 Office Park Building 21th Floor Unit C. Jl. TB Simatupang Kav. 18, Jakarta Selatan ,12520</span>
+							<p className={styles.infoText}>18 Office Park Building 21th Floor Unit C. Jl. TB Simatupang Kav. 18,
+								Jakarta Selatan ,12520</p>
 						</li>
 						<li>
 							<h4 className={styles.nameList}>Quick Contact</h4>
-							<span className={styles.infoText}>Email : contact@jhontraktor.com</span>
-							<span className={styles.infoText}>Call Us : (+62) 877-2469-7246</span>
+							<p className={styles.infoText}>Email : contact@jhontraktor.com</p>
+							<p className={styles.infoText}>Call Us : (+62) 877-2469-7246</p>
 						</li>
 						<li>
 							<h4 className={styles.nameList}>Opening Hours</h4>
-							<span className={styles.infoText}>Monday - Friday</span>
-							<span className={styles.infoText}>09:00 AM - 06:00 PM</span>
+							<p className={styles.infoText}>Monday - Friday</p>
+							<p className={styles.infoText}>09:00 AM - 06:00 PM</p>
 						</li>
 					</ul>
 					<p className={styles.textContact}>Do You Have Any Question, Just Contact Us To Get Help!</p>

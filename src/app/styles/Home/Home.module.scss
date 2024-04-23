@@ -30,7 +30,12 @@
 }
 
 .wrapperRequest {
-  height: 900px;
+  height: auto;
+  background-image: url("./icons/fon.png");
+}
+
+.componentRequest {
+  height: auto;
   padding: 45px 112px;
   background: linear-gradient(180deg, #191A19 0%, rgba(0, 0, 0, 0) 152.79%);
 }
