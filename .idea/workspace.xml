@@ -5,18 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2958d0eb-6180-4c29-a3e9-6adb45642fee" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/app/styles/Home/icons/fon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/TheComments/dateComment/DateComment.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/api/auth/[...nextauth]/route.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/profile/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/signin/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/googleButton/GoogleButton.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/providers/Providers.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/sighInForm/SighInForm.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/configs/auth.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/styles/Home/Home.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/styles/Home/Home.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/TheComments/TheComments.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TheComments/TheComments.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/TheComments/TheComments.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TheComments/TheComments.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/TheComments/TheSliderComments.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TheComments/TheSliderComments.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/theFooter/TheFooter.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/theFooter/TheFooter.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/theHeader/TheHeader.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/theHeader/TheHeader.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/theRequest/TheRequest.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/theRequest/TheRequest.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/theRequest/TheRequest.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/theRequest/TheRequest.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/theHeader/TheHeader.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/theHeader/TheHeader.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/theHeader/navigation/Navigation.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/theHeader/navigation/Navigation.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,26 +61,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/ViktoR/Desktop/myDocument/progectDiplom/LendingConstruction&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;SCSS&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.standard&quot;: &quot;&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.sourceCode.HTML&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\ViktoR\\Desktop\\myDocument\\progectDiplom\\LendingConstruction\\node_modules\\typescript\\lib&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/ViktoR/Desktop/myDocument/progectDiplom/LendingConstruction/src/app",
+    "list.type.of.created.stylesheet": "SCSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.standard": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.standard": "",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "preferences.sourceCode.HTML",
+    "ts.external.directory.path": "C:\\Users\\ViktoR\\Desktop\\myDocument\\progectDiplom\\LendingConstruction\\node_modules\\typescript\\lib",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="ReactDesignerToolWindowState">
     <option name="myId2Visible">
       <map>
@@ -91,6 +92,9 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ViktoR\Desktop\myDocument\progectDiplom\LendingConstruction\src\app" />
+      <recent name="C:\Users\ViktoR\Desktop\myDocument\progectDiplom\LendingConstruction\src\components" />
+      <recent name="C:\Users\ViktoR\Desktop\myDocument\progectDiplom\LendingConstruction\src" />
       <recent name="C:\Users\ViktoR\Desktop\myDocument\progectDiplom\LendingConstruction" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -156,7 +160,9 @@
       <workItem from="1713673219529" duration="24322000" />
       <workItem from="1713756553872" duration="9105000" />
       <workItem from="1713780584295" duration="1322000" />
-      <workItem from="1713846224010" duration="8846000" />
+      <workItem from="1713846224010" duration="9429000" />
+      <workItem from="1714829968786" duration="80000" />
+      <workItem from="1714830058185" duration="4395000" />
     </task>
     <servers />
   </component>
