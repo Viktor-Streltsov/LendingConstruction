@@ -15,10 +15,12 @@ export const navItems = [
 const TheHeader = () => {
 	return (
 		<header className={styles.wrapperHeader}>
-			<div><Logo /></div>
-			<nav className={styles.navText}>
-				<Navigation navLinks={navItems} />
-			</nav>
+			<div className={styles.menu}>
+				<div className={styles.logo}><Logo /></div>
+				<nav className={styles.navText}>
+					<Navigation navLinks={navItems} />
+				</nav>
+			</div>
 			<Link href='#' className={styles.btnUs}>
 				Contact Us
 			</Link>

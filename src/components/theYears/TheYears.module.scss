@@ -1,8 +1,16 @@
+@import "../../app/styles/mixin";
+
 .numbers {
   display: flex;
   flex-direction: row;
   column-gap: 30px;
   align-items: center;
+  flex-wrap: wrap;
+
+
+  @include laptop {
+    justify-content: space-between;
+  }
 
   li {
     display: flex;
@@ -20,6 +28,10 @@
   line-height: 72px;
   font-weight: 600;
   margin-right: 6px;
+
+  @include tablet {
+    font-size: 34px;
+  }
 }
 
 .textNum {
@@ -44,6 +56,11 @@
   font-size: 64px;
   line-height: 96px;
   margin-bottom: 13px;
+
+  @include tablet {
+    font-size: 44px;
+    line-height: 54px;
+  }
 }
 
 .textOne {
@@ -65,4 +82,8 @@
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
+
+  @include tablet {
+    display: none;
+  }
 }

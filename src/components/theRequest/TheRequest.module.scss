@@ -1,3 +1,5 @@
+@import "../../app/styles/mixin";
+
 .nameRequest {
   width: 100%;
   font-size: 55px;
@@ -10,8 +12,9 @@
 .blockInfoForm {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   align-items: center;
-  column-gap: 24px;
+  gap: 24px;
 }
 
 .blockForm, .blockInfo {
@@ -19,6 +22,12 @@
   background: #AE1919;
   border-radius: 15px;
   padding: 42px 58px;
+}
+
+.blockInfo {
+  @include laptop {
+    width: 100%;
+  }
 }
 
 .nameForm {
@@ -52,7 +61,6 @@
 
 .inputForm {
   width: 100%;
-  max-width: 330px;
   height: 76px;
   border-radius: 15px;
   padding: 23px 25px;

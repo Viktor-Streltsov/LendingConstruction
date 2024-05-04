@@ -5,19 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2958d0eb-6180-4c29-a3e9-6adb45642fee" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/app/api/auth/[...nextauth]/route.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/profile/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/signin/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/googleButton/GoogleButton.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/providers/Providers.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/sighInForm/SighInForm.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/configs/auth.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/styles/mixin.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/styles/Home/Home.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/styles/Home/Home.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/TheComments/TheComments.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TheComments/TheComments.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/TheComments/TheSliderComments.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TheComments/TheSliderComments.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/theFooter/TheFooter.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/theFooter/TheFooter.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/theFuture/TheFuture.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/theFuture/TheFuture.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/theHeader/TheHeader.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/theHeader/TheHeader.module.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/theHeader/TheHeader.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/theHeader/TheHeader.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/theHeader/navigation/Navigation.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/theHeader/navigation/Navigation.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/theRequest/TheRequest.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/theRequest/TheRequest.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/theYears/TheYears.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/theYears/TheYears.module.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,9 +25,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="SCSS File" />
         <option value="TypeScript JSX File" />
         <option value="TypeScript File" />
+        <option value="SCSS File" />
       </list>
     </option>
   </component>
@@ -162,7 +160,7 @@
       <workItem from="1713780584295" duration="1322000" />
       <workItem from="1713846224010" duration="9429000" />
       <workItem from="1714829968786" duration="80000" />
-      <workItem from="1714830058185" duration="4395000" />
+      <workItem from="1714830058185" duration="8155000" />
     </task>
     <servers />
   </component>
